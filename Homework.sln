@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework", "Homework\Homework.csproj", "{462E242F-1950-4AA5-9054-02CAEA7A9907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面向过程2", "面向过程2\面向过程2.csproj", "{9EC33C69-5407-478C-B12C-C3F2FB38CADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面向过程3", "面向过程2\面向过程3.csproj", "{9EC33C69-5407-478C-B12C-C3F2FB38CADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

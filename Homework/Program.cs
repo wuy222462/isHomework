@@ -48,14 +48,39 @@ class Class1
         //Console.WriteLine(odds[l]);
 
         //}检测
-        int m = 0;
-        int sum = 0;
-        for (m = 0; m < odds.Length; m++)
+        //int m = 0;
+        //int sum = 0;
+        //for (m = 0; m < odds.Length; m++)
+        //{
+        //    sum += odds[m];
+
+        //}
+        //Console.WriteLine(sum);
+
+        //同时/一次性找到并输出数组中的最大最小值
+        int max, min, n;
+        max = odds[0];
+        min = odds[0];
+        for (n = 0; n < odds.Length; n++)
         {
-            sum += odds[m];
+            if (max < odds[n])
+            {
+                max = odds[n];
+            }
+            //elsenothing
+            if (min > odds[n])
+            {
+                min = odds[n];
+
+            }
+            //elsenothing
+
 
         }
-        Console.WriteLine(sum);
+        Console.WriteLine(max);
+        Console.WriteLine(min);
+        //提出问题 可以一次console.writeline max 和min吗？
+
     }
 
 }

@@ -15,11 +15,14 @@ class Class1
     {
         //分别用for循环和while循环直接输出：1,2,3,4,5 和 1,3,5,7,9
         int i;
-        for (i = 1; i <= 5; i++)
+        i = 1;
+        while (i <= 5)
         {
-            Console.WriteLine(i * 2 - 1);
-        }
 
+            Console.WriteLine(i);
+            i++;
+
+        }
 
 
 

@@ -24,15 +24,15 @@ class Class1
 
         int number;
         number = int.Parse(Console.ReadLine());
-        if (number > 0)
+        if (number > 100)
         {
 
-            Console.WriteLine(number + "是正数");
+            Console.WriteLine(number + "是大于100的正数");
 
         }
-        else {
-
-            Console.WriteLine("重新输入");
+        else { 
+        
+            Console.WriteLine(number+"不是大于100的正数");
         
         }
     

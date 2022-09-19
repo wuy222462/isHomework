@@ -22,11 +22,13 @@ class Class1
         //ids = new int[] { 21, 32, 421, 4124, 515 };
 
         int[] ids = { 21, 32, 421, 4124, 515 };
-        int i;//不声明i for循环也不能直接用;
-
-        for (i = 0; i < ids.Length; i++)
+        int i = 0;//声明的同时赋值
+        while (i < ids.Length)
         {
+
             Console.WriteLine(ids[i]);
+            i++;
+
 
         }
 

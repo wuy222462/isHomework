@@ -36,10 +36,10 @@ class Class1
                 odds[k] = j;
                 k++;
             }
-
+            //elsenothing
         }
 
-        Console.WriteLine(odds);
+        //Console.WriteLine(odds);
 
         //int l=0;
         //for (l = 0; l < odds.Length; l++) { 
@@ -48,8 +48,14 @@ class Class1
         //Console.WriteLine(odds[l]);
 
         //}检测
+        int m = 0;
+        int sum = 0;
+        for (m = 0; m < odds.Length; m++)
+        {
+            sum += odds[m];
 
-
+        }
+        Console.WriteLine(sum);
     }
 
 }

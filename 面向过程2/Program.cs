@@ -18,24 +18,25 @@ class Class1
         //正数，示例：
         //number > 0
         //大于100的正数
-        //大于100小于1000的正数
+            
         //10000以内能被3整除的奇数
 
 
         int number;
         number = int.Parse(Console.ReadLine());
-        if (number > 100)
+        if (number > 100 && number < 1000)
         {
 
-            Console.WriteLine(number + "是大于100的正数");
+            Console.WriteLine(number + "是大于100且小于1000的正数");
 
         }
-        else { 
-        
-            Console.WriteLine(number+"不是大于100的正数");
-        
+        else
+        {
+
+            Console.WriteLine(number + "不是大于100且小于1000的正数");
+
         }
-    
+
     }
 
 }
@@ -43,9 +44,6 @@ class Class1
 
 
 
-            
-
-        
 
 
 
@@ -54,7 +52,10 @@ class Class1
 
 
 
-    
+
+
+
+
 
 
 

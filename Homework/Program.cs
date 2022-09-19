@@ -13,19 +13,16 @@ class Class1
 
     static void Main()
     {
-        //分别利用while和for循环，计算出1000 + 999 + 998 + 997 +……+100/*的值*/
-        int i, sum;
+        //让电脑计算并输出：99 + 97 + 95 + 93 + ...+1的值
 
+        int i, sum;
         sum = 0;
-        for (i = 100; i <= 1000; i++)
+        for (i = 1; i <= 99; i += 2)
         {
             sum += i;
 
-            Console.WriteLine(sum);
-
-
-
         }
+        Console.WriteLine(sum);//只输出一次和
 
     }
 

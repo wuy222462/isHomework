@@ -17,7 +17,7 @@ class Class1
         int i;
         for (i = 1; i <= 5; i++)
         {
-            Console.WriteLine(i);
+            Console.WriteLine(i * 2 - 1);
         }
 
 

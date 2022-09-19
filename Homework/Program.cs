@@ -14,41 +14,40 @@ class Class1
     static void Main()
     {
 
-        //        声明变量age（年龄），写一段代码能根据age输出文本：成年（满18岁），或者未成年（未满18岁）
-        //          let age /*补足*/;
-        //        if (age /*补足*/ 18){
-        //            alert(/*补足*/);
-        //        }/*补足*/
+        //        写一段代码，能够根据score（成绩）输出文本：
+        //60以下：不及格
+        //80以上：优秀
+        //60 - 80：及格
+        //注意：审查是否存在模糊的需求。如果存在，予以修正，作为注释包含在代码中。
 
 
+        //模糊需求1优秀是否包含80分 
+        //      2 如过成绩输入负数怎么办，
+        //        3 满分是多少 输入超过满分怎么办
+        //        
 
-        //不考虑输入负数的和太大的只拿18做判断
 
-        int age = int.Parse(Console.ReadLine());
+        int score;
+        score = int.Parse(Console.ReadLine());
 
-        if (age >= 18)
+        if (score < 60)
         {
-            Console.WriteLine("成年了");
+            Console.WriteLine("不及格");
+
+        }
+        else if (score < 80)
+        {
+            Console.WriteLine("及格");
+
         }
         else
         {
 
-            Console.WriteLine("未成年");
-
+            Console.WriteLine("优秀");
         }
 
 
-
-
-
-
-
-
-
-
-
     }
-
 
 }
 

@@ -12,28 +12,42 @@ class Class1
 {
 
     static void Main()
+
     {
-        //        声明一个数组ids，存放若干整数，利用：
-        //while
-        //for循环 i--
-        //输出数组中每个元素的值
+        //声明一个数组odds，利用循环把100以内的不能被3整除的数按从小到大的顺序存入其中
+        int i, j, k = 0, count = 0;
 
-        //int[] ids;
-        //ids = new int[] { 21, 32, 421, 4124, 515 };
 
-        int[] ids = { 21, 32, 421, 4124, 515 };
-        int i = 0;//声明的同时赋值
-        while (i < ids.Length)
+        for (i = 0; i < 100; i++)
         {
+            if (0 != i % 3)
+            {
+                count++;
+            }
+            //elsenothing
+        }
 
-            Console.WriteLine(ids[i]);
-            i++;
-
+        int[] odds;
+        odds = new int[count];
+        for (j = 0; j < 100; j++)
+        {
+            if (0 != j % 3)
+            {
+                odds[k] = j;
+                k++;
+            }
 
         }
 
+        Console.WriteLine(odds);
+
+        //int l=0;
+        //for (l = 0; l < odds.Length; l++) { 
 
 
+        //Console.WriteLine(odds[l]);
+
+        //}检测
 
 
     }

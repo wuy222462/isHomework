@@ -14,52 +14,54 @@ class Class1
     static void Main()
     {
 
-        //            声明一个变量number，给number赋整数值，写出以下表达式，判断number是不是：
-        //正数，示例：
-        //number > 0
-        //大于100的正数
-
-        //10000以内能被3整除的奇数
+        //    想一想如下表达式的结果是什么，并说明原因：
+        //let a = 10;
+        //    console.log(a > 9 && (!(a < 11) || a > 10));
 
 
-        int number;
 
-        
-        number = int.Parse(Console.ReadLine());
-        
-        
-        if (number > 0 && number < 10000)//判断是否为正数
-        {
-            if (0 != number % 2)//判断是否为偶数
-            {
 
-                if (0 == number % 3)//判断是否能被三整除
-                {
+        //回答：是false ，
 
-                    Console.WriteLine(number + "是一个10000以内能被三正数的奇数");
-                }
-                else
-                {
-                    Console.WriteLine(number + "不是一个10000以内能被三正数的奇数");
+        //        a>9是符合的结果为true，
 
-                }
-                
+        //        &&后面的条件是（）
 
-            }
-            else
-            {
-                Console.WriteLine(number + "不是一个10000以内能被三正数的奇数");
+        //        !(a < 11) 这代表a>11  返回false
+        //        或者a > 10 返回 false
 
-            }
+        //        ture&&false 
 
-        }
-        else
-        {
-            Console.WriteLine(number + "不是一个10000以内能被三正数的奇数");
+        //        返回false
 
-        }
+        //当a为何值时，结果为true？
+
+        //    let result = (a + 3 > 12) && a < 3.14 * 4 && a != 11;
+        //大于9且 小于12.56 并且a不等于11
+        //   所以a为10||12
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
+
 
 }
 

@@ -19,7 +19,7 @@ class Class1
         while (i <= 5)
         {
 
-            Console.WriteLine(i);
+            Console.WriteLine(i * 2 - 1);
             i++;
 
         }
